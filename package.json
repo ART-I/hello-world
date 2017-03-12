@@ -1,0 +1,30 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "## Subtitle",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ART-I/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase": "^3.2.1",
+    "firebase-server": "^0.7.0",
+    "jasmine": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-jasmine-jquery": "^0.1.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "phantomjs-prebuilt": "^2.1.12"
+  },
+  "bugs": {
+    "url": "https://github.com/ART-I/hello-world/issues"
+  },
+  "homepage": "https://github.com/ART-I/hello-world#readme"
+}

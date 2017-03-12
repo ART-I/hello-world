@@ -5,7 +5,7 @@ describe("example", function () {
   });
 
   it("should return 'nos vemos'", function () {
-    var result = 'nos vemos!';
+    var result = 'nos vemos';
     expect(example("adios")).toEqual(result);
   });
 });

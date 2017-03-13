@@ -7,3 +7,11 @@ function example(input) {
     return "no te entiendo";
   }
 }
+
+function otherExample(input) {
+  if (input == "bien")
+    return true;
+  else {
+    return false;
+  }
+}

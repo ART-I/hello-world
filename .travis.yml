@@ -1,6 +1,27 @@
 language: node_js
 node_js:
-  - "0.10"
-script: "karma start karma.conf.js"
+  - "node"
+
+# before_install:
+#   -
+
 before_script:
   - "npm install"
+
+script:
+  - "npm test"
+
+after_success:
+  - "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+
+notifications:
+  email: false
+# slack:
+#   on_success: always|never|change
+# email:
+#   recipients:
+#     - one@example.com
+#     - other@example.com
+#   on_success: never # default: change
+#   on_failure: always # default: always
+#

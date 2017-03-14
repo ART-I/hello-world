@@ -10,9 +10,7 @@ function example(input) {
 
 function otherExample(input) {
   if (input == "bien")
-    return "bien";
-  else if (input == "mal")
-    return "mal";
+    return true;
   else {
     return false;
   }

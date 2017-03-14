@@ -17,10 +17,6 @@ describe("example", function () {
 
 describe("otherExample", function () {
   it("should return true", function () {
-    expect(otherExample("bien")).toEqual("bien");
-  });
-  
-  it("should return 'mal'", function () {
-    expect(otherExample("mal")).toEqual("mal");
+    expect(otherExample("bien")).toBeTruthy();
   });
 });

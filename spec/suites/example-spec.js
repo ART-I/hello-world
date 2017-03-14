@@ -23,8 +23,4 @@ describe("otherExample", function () {
   it("should return 'mal'", function () {
     expect(otherExample("mal")).toEqual("mal");
   });
-
-  it("should return 'false'", function () {
-    expect(otherExample("nada")).toEqual(false);
-  });
 });

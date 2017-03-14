@@ -25,6 +25,6 @@ describe("otherExample", function () {
   });
 
   it("should return 'false'", function () {
-    expect(otherExample("bien")).toEqual(false);
+    expect(otherExample("nada")).toEqual(false);
   });
 });

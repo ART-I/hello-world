@@ -19,8 +19,12 @@ describe("otherExample", function () {
   it("should return true", function () {
     expect(otherExample("bien")).toEqual("bien");
   });
-  
+
   it("should return 'mal'", function () {
     expect(otherExample("mal")).toEqual("mal");
+  });
+
+  it("should return 'false'", function () {
+    expect(otherExample(false)).toEqual("false");
   });
 });

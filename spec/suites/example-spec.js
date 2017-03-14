@@ -14,3 +14,9 @@ describe("example", function () {
     expect(example("jeje")).toEqual(result);
   });
 });
+
+describe("otherExample", function () {
+  it("should return true", function () {
+    expect(otherExample("bien")).toBeTruthy();
+  });
+});

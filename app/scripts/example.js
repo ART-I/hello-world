@@ -10,8 +10,8 @@ function example(input) {
 
 function otherExample(input) {
   if (input == "bien")
-    return true;
-  else {
-    return false;
+    return "bien";
+  else if (input == "mal") {
+    return "mal";
   }
 }

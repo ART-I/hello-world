@@ -12,7 +12,8 @@ script:
   - "npm test"
 
 after_success:
-  - "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  - "codecov"
+  #- "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
 
 notifications:
   email: false

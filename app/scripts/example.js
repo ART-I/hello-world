@@ -11,7 +11,8 @@ function example(input) {
 function otherExample(input) {
   if (input == "bien")
     return "bien";
-  else if (input == "mal") {
+  else if (input == "mal")
     return "mal";
-  }
+  else if (input == "jeje")
+    return "jeje";
 }

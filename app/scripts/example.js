@@ -15,4 +15,6 @@ function otherExample(input) {
     return "mal";
   else if (input == "jeje")
     return "jeje";
+  else if (input == "Jojo")
+    return "jojo";
 }

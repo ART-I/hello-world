@@ -1,2 +1,7 @@
 codecov:
-  branch: Develop  
+  branch: Develop
+
+coverage:
+  precision: 2
+  round: down
+  range: "50...90"
